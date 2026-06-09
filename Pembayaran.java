@@ -3,8 +3,9 @@ public class Pembayaran {
     private Pemesanan pemesanan;
     private boolean status;
 
-    public Pembayaran() {
-        status = false;
+    public Pembayaran(Pemesanan pemesanan) {
+        this.pemesanan = pemesanan;
+        this.status = false;
     }
 
     public void bayar() {
