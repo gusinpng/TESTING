@@ -1,5 +1,6 @@
 public class Pembayaran {
 
+    private Pemesanan pemesanan;
     private boolean status;
 
     public Pembayaran() {
