@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
+
+        boolean jalan = true;
+
         while (jalan) {
 
             System.out.println("\n====================================");
@@ -20,6 +22,11 @@ public class Main {
             int menu = input.nextInt();
             input.nextLine();
 
+            if (menu == 6) {
+                jalan = false;
+            }
+        }
+        
         input.close();
     }
 }
