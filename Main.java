@@ -2,14 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
-        Member member = null;
-        Pemesanan pemesanan = null;
-        Pembayaran pembayaran = new Pembayaran();
-
-        boolean jalan = true;
-
+        
         while (jalan) {
 
             System.out.println("\n====================================");
